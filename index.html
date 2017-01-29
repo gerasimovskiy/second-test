@@ -5,6 +5,7 @@
 	<title>Corporate Landing Page</title>
 	<link href="https://fonts.googleapis.com/css?family=Exo:100,400,400i,500" rel="stylesheet">
 	<link rel="stylesheet" href="less/style.css">
+	<!-- <link rel="stylesheet" href="style.css"> -->
 	<script src="https://use.fontawesome.com/1224a36707.js"></script>
 </head>
 <body>
@@ -108,7 +109,55 @@
 		<p class="browser-pre-title">new features</p>
 		<p class="browser-title">Some awesone features</p>
 		<p class="browser-text">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.<br>Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor.<br>Etiasem malesuada magn. Vestibulum felis euismod semper.</p>
+		
+		
+		<div class="isotop-filter">
+			<ul class="filter">
+				<li data-filter="*" class="active trigger">All photos</li>
+				<li class="trigger" data-filter=".nature">Nature</li>
+				<li class="trigger" data-filter=".space">Space</li>
+				<li class="trigger" data-filter=".road">Road</li>
+			</ul>
+		</div>
+			<!-- styles for isotope -->
+		<div class="images isotop-content">
 
+				<div class="img nature">
+					<img src="img/1.jpg" alt="image">
+				</div>
+				<div class="img nature">
+					<img src="img/2.jpg" alt="image">
+				</div>
+				<div class="img nature">
+					<img src="img/3.jpg" alt="image">
+				</div>
+				<div class="img nature space">
+					<img src="img/4.jpg" alt="image">
+				</div>
+				<div class="img space">
+					<img src="img/5.jpg" alt="image">
+				</div>
+				<div class="img space">
+					<img src="img/6.jpg" alt="image">
+				</div>
+				<div class="img road">
+					<img src="img/7.jpg" alt="image">
+				</div>
+				<div class="img road">
+					<img src="img/8.jpg" alt="image">
+				</div>
+				<div class="img road nature">
+					<img src="img/9.jpg" alt="image">
+				</div>
+				<div class="img road nature">
+					<img src="img/10.jpg" alt="image">
+				</div>
+		</div>
+
+		
+	
+
+	
 	</section>
 
 
@@ -178,6 +227,9 @@
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
   crossorigin="anonymous"></script>
   <script src="js/slick.min.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <!-- <script src="js/isotope.pkgd.js" ></script> -->
+  <!-- <script src="js/isotop.js"></script> -->
   <script src="js/main.js"></script>
 
 </body>
